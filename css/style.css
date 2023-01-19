@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 62,5%;
+
+}
+
 .header{
     position: sticky;
     top: 0;
@@ -5,8 +14,6 @@
 .nav{
     display: flex;
     background-color: black;
-    width: 100vw;
-    max-width: 480px;
     flex-direction: row;
     justify-content: space-between;
     padding: 2%;
@@ -25,7 +32,9 @@
     padding-top: 10%;
     flex-wrap: wrap;
     height: 50vh;
+    
 }
+
 .h1,.text,.boton{
     color: white;
 }
@@ -46,11 +55,42 @@
     border-radius: 25%;
     font-size: 130%;
 }
-.text2{
-    margin: 0 5% 5% 5%;
-    font-size: 90%;
-}
+
 
 .h2, .text3, .text4, .text5, .text6{
     color: black;
+}
+.h2 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 1rem;
+    
+}
+.section2 {
+    background-color: rgb(189, 171, 12);
+    padding-top: 2rem;
+}
+.article {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    
+}
+
+
+.img {
+    width: 5rem;
+    
+}
+.div{
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
 }

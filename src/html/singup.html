@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/pages/singup.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <img src="./assets/images/logo.png" alt="Logo Spotify" /> -->
+    <h1>Regístrate gratis para escuchar.</h1>
+    <h2>Registrarte con tu correo electrónico</h2>
+    <form class="form" method="post" action="" class="form">
+      <label for="mail">¿Cuál es tu correo electrónico?</label>
+      <input
+        id="mail"
+        type="email"
+        name="mail"
+        placeholder="Pon tu correo electrónico"
+      />
+      <label for="confirm_mail">Confirma el correo electrónico</label>
+      <input
+        id="confirm_mail"
+        type="email"
+        name="confirm_mail"
+        placeholder="Vuelve a poner tu correo electrónico"
+      />
+      <label for="password">Crea una contraseña</label>
+      <input
+        id="password"
+        type="password"
+        name="password"
+        placeholder="Crea una contraseña"
+      />
+      <label for="name">¿Cómo quieres que te llamemos?</label>
+      <input
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Pon un nombre de perfil."
+      />
+      <span>Esto aparece en tu perfil</span>
+
+      <fieldset class="date">
+          <label for="birth_date"
+            >¿Cuál es tu fecha de nacimiento?
+            <label for="day">Día</label>
+            <input
+              id="day"
+              type="number"
+              name="day"
+              placeholder="DD"
+              min="1"
+              max="31"
+            />
+            <label for="month">Mes</label>
+            <select name="month" id="month">
+              <option disabled selected>Mes</option>
+              <option value="january">Enero</option>
+              <option value="february">Febrero</option>
+              <option value="march">Marzo</option>
+              <option value="april">Abril</option>
+            </select>
+            <label for="year">Año</label>
+            <input
+              id="year"
+              type="number"
+              name="year"
+              placeholder="AAAA"
+              min="1900"
+              max="2023"
+            />
+      </fieldset>
+        <!-- pattern="^[0-9]{4}$" -->
+      </label>
+    </form>
+  </body>
+</html>

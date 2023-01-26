@@ -1,0 +1,14 @@
+@import "../core/reset";
+
+label {
+  display: block;
+}
+span {
+  display: block;
+}
+
+.date {
+  &label {
+    display: inline;
+  }
+}
